@@ -1,0 +1,14 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/
+venv/
+env/
+.env
+*.env
+*.csv
+*.joblib
+*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
