@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  scoring-api:
+    build: .                           
+    image: credit-scoring-api:v1      
+    container_name: credits            
+    ports:
+      - "8000:8000"                    
+    restart: always                    
