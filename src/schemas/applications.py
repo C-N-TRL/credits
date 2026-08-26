@@ -10,7 +10,7 @@ class CreditData(BaseModel):
     NumberOfOpenCreditLinesAndLoans: int
     NumberOfTimes90DaysLate: float
     NumberRealEstateLoansOrLines: int
-    NumberOfTime60_89DaysPastDueNotWorse: float = Field(0.0, alias="NumberOfTime30-59DaysPastDueNotWorse")
+    NumberOfTime60_89DaysPastDueNotWorse: float = Field(0.0, alias="NumberOfTime60-89DaysPastDueNotWorse")
     NumberOfDependents: float 
 
 class ModelResponse(BaseModel):
